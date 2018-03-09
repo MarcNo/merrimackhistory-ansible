@@ -4,3 +4,4 @@
 - include: ftpd.yml
 - include: web-content.yml
 - include: secure-sshd.yml
+- include: cockpit.yml
