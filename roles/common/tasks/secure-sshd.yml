@@ -1,0 +1,9 @@
+---
+
+- name: Turn off password authentication (keys only!)
+  lineinfile:
+    dest=/etc/ssh/sshd_config
+    regexp="^PasswordAuthentication yes$"
+    line="PasswordAuthentication no"
+    state=present
+  notify: restart sshd

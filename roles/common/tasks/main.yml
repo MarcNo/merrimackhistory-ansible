@@ -3,3 +3,4 @@
 - include: httpd.yml
 - include: ftpd.yml
 - include: web-content.yml
+- include: secure-sshd.yml
